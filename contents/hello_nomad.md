@@ -15,8 +15,8 @@ Nomadは他のHashiCorp製品と同様にシングルバイナリですので、
 
 ```console
 $ unzip nomad*.zip
-$ chmod + x nomad
-$ mv nomad /usr/local/bin
+$ chmod +x nomad
+$ sudo mv nomad /usr/local/bin
 $ nomad -version
 Nomad v0.10.0 (25ee121d951939504376c70bf8d7950c1ddb6a82)
 ```
