@@ -381,7 +381,7 @@ Submit Date = 2020-01-31T15:53:24+09:00
 `eval`コマンドはEvaluationのステータスを確認するためのコマンドです。`初めてのNomad`の章でメモしたEvaluation IDをコピーして下さい。
 
 ```console
-$ nomad job eval status <EVAL_ID>
+$ nomad eval status <EVAL_ID>
 
 ID                 = 720ff6d0
 Create Time        = 35m23s ago
